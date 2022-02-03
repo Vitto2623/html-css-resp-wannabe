@@ -72,7 +72,7 @@ img {
   clear: both;
 }
 
-/*MOBILE*/
+/*SMARTPHONE*/
 @media screen and (max-width: 420px) {
     
     .container{
@@ -80,12 +80,30 @@ img {
       padding: 10px;
     }
 
-    .row{
+    h1{
+      margin-top: 0px;
+      margin-bottom: 20px;
+    }
+    
+    h3{
+      margin: 0;
+      font-size: 1.8em;
+    }
+
+    img{
+      height: 154px;
+    }
+
+    hr{
+      border: 1px solid black;
+    }
+
+    .row {
+      width: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 100%;
-      margin: 0;
+      margin-top: 0px;
     }
 
     #lezioni .row>.right {
@@ -96,9 +114,16 @@ img {
     #steps .row>.central,
     #steps .row>.right {
       width: 100%;
+      margin-top: 22px;
     }
 
     #why.container.grey{
       background-color: #f2f2cd;
+    }
+
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+      margin-top: 5px;
     }
 }
